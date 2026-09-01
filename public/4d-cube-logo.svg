@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 120">
+  <g fill="#161616">
+    <path d="M0 0H42V12C25.4 16.2 13 28.6 8.8 45H0V0Z"/>
+    <path d="M58 0H100V45H91.2C87 28.6 74.6 16.2 58 12V0Z"/>
+    <path d="M0 55H8.8C13 71.4 25.4 83.8 42 88V100H0V55Z"/>
+    <path d="M91.2 55H100V100H58V88C74.6 83.8 87 71.4 91.2 55Z"/>
+  </g>
+
+  <text
+    x="138"
+    y="68"
+    fill="#161616"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="54"
+    font-weight="700"
+    letter-spacing="2"
+  >
+    4D-CUBE
+  </text>
+</svg>
