@@ -36,7 +36,7 @@ export default function Footer() {
               </Link>
 
               <Link href="/fittings" className="transition-opacity hover:opacity-60">
-                Fittings
+                Connections
               </Link>
 
               <Link href="/applications" className="transition-opacity hover:opacity-60">

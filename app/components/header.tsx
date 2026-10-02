@@ -31,8 +31,7 @@ export default function Header() {
           <Link
             href="/fittings"
             className="transition-opacity hover:opacity-50"
-          >
-            Fittings
+          >Connections
           </Link>
 
           <Link
