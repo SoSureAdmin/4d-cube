@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function FittingsPage() {
   return (
     <main className="min-h-screen text-[#161616]">
@@ -132,6 +134,52 @@ export default function FittingsPage() {
                 <br />
                 Disassembly matters too.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* EARLY CONNECTION STUDY */}
+      <section className="border-b border-black/15 px-6 py-20 md:px-12 md:py-24">
+        <div className="mx-auto max-w-7xl">
+          <div className="grid gap-12 md:grid-cols-[0.75fr_1.25fr] md:gap-24">
+            <div className="flex flex-col justify-between">
+              <div>
+                <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-neutral-500">
+                  Early Connection Study
+                </p>
+
+                <h2 className="max-w-md text-4xl font-medium leading-tight tracking-[-0.03em] md:text-5xl">
+                  FROM
+                  <br />
+                  QUESTION
+                  <br />
+                  TO SKETCH.
+                </h2>
+              </div>
+
+              <p className="mt-10 max-w-md text-sm leading-7 text-neutral-600 md:mt-16">
+                Early architectural input exploring how structural profiles
+                could meet the Cube. The connection geometry shown here is a
+                development study, not a final engineering solution.
+              </p>
+            </div>
+
+            <div>
+              <div className="relative h-[380px] overflow-hidden bg-[#e4d8c4] md:h-[520px]">
+                <Image
+                  src="/connection-study-01.jpeg"
+                  alt="Early architectural connection study for the 4D-CUBE system"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 760px"
+                  className="scale-[1.75] object-cover object-center"
+                />
+              </div>
+
+              <div className="mt-5 flex flex-col gap-2 border-t border-black/15 pt-4 text-[10px] uppercase tracking-[0.2em] text-neutral-500 md:flex-row md:items-center md:justify-between">
+                <span>Connection Study / Development Process</span>
+                <span>Concept — Not For Construction</span>
+              </div>
             </div>
           </div>
         </div>
@@ -290,7 +338,9 @@ export default function FittingsPage() {
               <p className="text-xs tracking-[0.22em] text-neutral-500">
                 01
               </p>
+
               <h3 className="mt-6 text-2xl font-semibold">Define</h3>
+
               <p className="mt-5 leading-7 text-neutral-600">
                 Establish the mechanical and structural requirements of the
                 connection.
@@ -301,7 +351,9 @@ export default function FittingsPage() {
               <p className="text-xs tracking-[0.22em] text-neutral-500">
                 02
               </p>
+
               <h3 className="mt-6 text-2xl font-semibold">Prototype</h3>
+
               <p className="mt-5 leading-7 text-neutral-600">
                 Develop candidate connection geometries and physical
                 prototypes.
@@ -312,7 +364,9 @@ export default function FittingsPage() {
               <p className="text-xs tracking-[0.22em] text-neutral-500">
                 03
               </p>
+
               <h3 className="mt-6 text-2xl font-semibold">Test</h3>
+
               <p className="mt-5 leading-7 text-neutral-600">
                 Evaluate structural behaviour, assembly, disassembly and
                 repeated use.
@@ -323,7 +377,9 @@ export default function FittingsPage() {
               <p className="text-xs tracking-[0.22em] text-neutral-500">
                 04
               </p>
+
               <h3 className="mt-6 text-2xl font-semibold">Validate</h3>
+
               <p className="mt-5 leading-7 text-neutral-600">
                 Determine which solution should become part of the 4D-CUBE
                 platform.
