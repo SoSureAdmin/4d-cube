@@ -1,293 +1,372 @@
 export default function FittingsPage() {
   return (
-    <main className="min-h-screen bg-transparent text-[#161616]">
+    <main className="min-h-screen text-[#161616]">
       {/* HERO */}
       <section className="blueprint-surface border-b border-black/15 px-6 py-24 md:px-12 md:py-32">
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-16 md:grid-cols-2 md:gap-24">
             <div>
               <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-neutral-500">
-                Fittings
+                Connection Development
               </p>
 
               <h1 className="max-w-xl text-5xl font-semibold uppercase leading-[0.92] tracking-[-0.04em] md:text-7xl">
-                ONE CORE.
+                THE CUBE
                 <br />
-                MULTIPLE
+                EXISTS.
                 <br />
-                CONNECTIONS.
+                THE CONNECTION
+                <br />
+                COMES NEXT.
               </h1>
             </div>
 
             <div className="flex flex-col justify-end">
               <p className="max-w-xl text-lg leading-8 text-neutral-700">
-                The 4D-CUBE platform is built around a common connection
-                principle that can be extended through a growing family of
-                fittings and interfaces.
+                The 4D-CUBE concept depends on more than the Cube itself.
+                Structural profiles must connect to the Cube in a way that
+                supports assembly, disassembly and reconfiguration.
               </p>
 
               <p className="mt-8 max-w-xl text-lg leading-8 text-neutral-700">
-                Each interface expands what can be connected around the same
-                core — opening new structural configurations, materials and
-                applications without changing the underlying platform logic.
+                Developing that removable interface is now one of the central
+                engineering tasks in turning the concept into a practical
+                modular building system.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* FITTING DEVELOPMENT */}
+      {/* CURRENT BASELINE */}
       <section className="border-b border-black/15 px-6 py-20 md:px-12 md:py-24">
         <div className="mx-auto max-w-7xl">
           <p className="mb-12 text-xs font-medium uppercase tracking-[0.22em] text-neutral-500">
-            Fitting Development
-          </p>
-
-          <div className="grid gap-16 md:grid-cols-2 md:gap-24">
-            <div>
-              <h2 className="max-w-xl text-4xl font-medium leading-tight tracking-[-0.03em] md:text-5xl">
-                EXTEND THE
-                <br />
-                PLATFORM.
-                <br />
-                NOT THE
-                <br />
-                COMPLEXITY.
-              </h2>
-            </div>
-
-            <div className="flex flex-col justify-end">
-              <p className="max-w-xl text-lg leading-8 text-neutral-700">
-                Fitting development is focused on structural needs that recur
-                across different types of construction.
-              </p>
-
-              <p className="mt-8 max-w-xl text-lg leading-8 text-neutral-700">
-                The objective is not to create a catalogue of unrelated
-                components. It is to develop a limited family of useful,
-                repeatable interfaces around the same 4D-CUBE core.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CORE INTERFACE DIRECTIONS */}
-      <section className="blueprint-surface border-b border-black/15 px-6 py-20 md:px-12 md:py-24">
-        <div className="mx-auto max-w-7xl">
-          <p className="mb-12 text-xs font-medium uppercase tracking-[0.22em] text-neutral-500">
-            Core Interface Directions
+            Current Baseline
           </p>
 
           <div className="grid md:grid-cols-3">
-            <div className="border-b border-black/15 py-10 md:border-b-0 md:border-r md:pr-10">
+            <div className="border-b border-black/15 pb-10 md:border-b-0 md:border-r md:pr-10">
               <p className="text-xs tracking-[0.22em] text-neutral-500">
                 01
               </p>
 
               <h2 className="mt-6 text-2xl font-semibold">
-                Foundation
+                Cube
               </h2>
 
               <p className="mt-5 max-w-sm leading-7 text-neutral-600">
-                Interfaces between the 4D-CUBE platform, foundations and
-                vertical structural elements.
+                The first physical Cube establishes the central node around
+                which the connection system is being developed.
               </p>
             </div>
 
-            <div className="border-b border-black/15 py-10 md:border-b-0 md:border-r md:px-10">
+            <div className="border-b border-black/15 py-10 md:border-b-0 md:border-r md:px-10 md:py-0">
               <p className="text-xs tracking-[0.22em] text-neutral-500">
                 02
               </p>
 
               <h2 className="mt-6 text-2xl font-semibold">
-                Structural Connection
+                150 × 150
               </h2>
 
               <p className="mt-5 max-w-sm leading-7 text-neutral-600">
-                Interfaces for joining vertical, horizontal and branching
-                structural elements around a common node.
+                150 × 150 mm is the current development baseline for the
+                structural interface in both timber and aluminium directions.
               </p>
             </div>
 
-            <div className="py-10 md:pl-10">
+            <div className="pt-10 md:pl-10 md:pt-0">
               <p className="text-xs tracking-[0.22em] text-neutral-500">
                 03
               </p>
 
               <h2 className="mt-6 text-2xl font-semibold">
-                Material Adapter
+                Connection
               </h2>
 
               <p className="mt-5 max-w-sm leading-7 text-neutral-600">
-                Interfaces intended to connect the platform with timber,
-                aluminium and other suitable structural systems.
-              </p>
-            </div>
-          </div>
-
-          <div className="grid border-t border-black/15 md:grid-cols-3">
-            <div className="border-b border-black/15 py-10 md:border-b-0 md:border-r md:pr-10">
-              <p className="text-xs tracking-[0.22em] text-neutral-500">
-                04
-              </p>
-
-              <h2 className="mt-6 text-2xl font-semibold">
-                Stabilization
-              </h2>
-
-              <p className="mt-5 max-w-sm leading-7 text-neutral-600">
-                Interfaces for diagonal support and structural stabilization
-                where required by the configuration.
-              </p>
-            </div>
-
-            <div className="border-b border-black/15 py-10 md:border-b-0 md:border-r md:px-10">
-              <p className="text-xs tracking-[0.22em] text-neutral-500">
-                05
-              </p>
-
-              <h2 className="mt-6 text-2xl font-semibold">
-                Roof &amp; Envelope
-              </h2>
-
-              <p className="mt-5 max-w-sm leading-7 text-neutral-600">
-                Interface directions for roof structures, wall elements and
-                other building components around the structural frame.
-              </p>
-            </div>
-
-            <div className="py-10 md:pl-10">
-              <p className="text-xs tracking-[0.22em] text-neutral-500">
-                06
-              </p>
-
-              <h2 className="mt-6 text-2xl font-semibold">
-                Future Interfaces
-              </h2>
-
-              <p className="mt-5 max-w-sm leading-7 text-neutral-600">
-                Additional interfaces can be developed as new applications,
-                materials and structural requirements are validated.
+                The removable mechanical interface between Cube and structural
+                profile remains under development.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* CURRENT DEVELOPMENT */}
-      <section className="bg-[#161616] px-6 py-24 text-white md:px-12 md:py-32">
-        <div className="mx-auto max-w-7xl">
-          <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-white/50">
-            Current Development
-          </p>
+      {/* THE ENGINEERING QUESTION */}
+      <section className="blueprint-surface border-b border-black/15 px-6 py-24 md:px-12 md:py-32">
+        <div className="mx-auto grid max-w-7xl gap-16 md:grid-cols-2 md:gap-24">
+          <div>
+            <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-neutral-500">
+              The Engineering Question
+            </p>
 
-          <div className="grid gap-16 md:grid-cols-2 md:gap-24">
-            <div>
-              <h2 className="max-w-xl text-4xl font-medium leading-tight tracking-[-0.03em] md:text-5xl">
-                START WITH
+            <h2 className="max-w-xl text-4xl font-medium leading-tight tracking-[-0.03em] md:text-5xl">
+              HOW DO WE
+              <br />
+              CONNECT
+              <br />
+              WITHOUT MAKING
+              <br />
+              IT PERMANENT?
+            </h2>
+          </div>
+
+          <div className="flex flex-col justify-end">
+            <p className="max-w-xl text-lg leading-8 text-neutral-700">
+              A permanent joint can create a structure. But 4D-CUBE requires
+              more: the structural element should be capable of being removed
+              without destroying the Cube or unnecessarily sacrificing the
+              profile.
+            </p>
+
+            <p className="mt-8 max-w-xl text-lg leading-8 text-neutral-700">
+              That requirement is fundamental to expansion, reduction,
+              dismantling, transport and rebuilding.
+            </p>
+
+            <div className="mt-12 border-t border-black/20 pt-8">
+              <p className="max-w-xl text-3xl font-medium leading-tight tracking-[-0.03em]">
+                Assembly is only half the problem.
                 <br />
-                WHAT THE
-                <br />
-                SYSTEM NEEDS.
-              </h2>
-            </div>
-
-            <div className="flex flex-col justify-end">
-              <p className="max-w-xl text-lg leading-8 text-white/70">
-                Development is focused on the interfaces required to turn the
-                connection principle into practical structural
-                configurations.
-              </p>
-
-              <p className="mt-8 max-w-xl text-lg leading-8 text-white/70">
-                Prototypes and testing will determine which fittings add real
-                value to the system and which do not.
+                Disassembly matters too.
               </p>
             </div>
           </div>
+        </div>
+      </section>
 
-          <div className="mt-20 grid border-t border-white/20 md:grid-cols-3">
-            <div className="border-b border-white/20 py-10 md:border-b-0 md:border-r md:pr-10">
-              <p className="text-xs text-white/40">
-                FOCUS 01
+      {/* DESIGN REQUIREMENTS */}
+      <section className="border-b border-black/15 px-6 py-20 md:px-12 md:py-24">
+        <div className="mx-auto max-w-7xl">
+          <p className="mb-12 text-xs font-medium uppercase tracking-[0.22em] text-neutral-500">
+            Development Requirements
+          </p>
+
+          <div className="grid md:grid-cols-4">
+            <div className="border-b border-black/15 pb-10 md:border-b-0 md:border-r md:pr-8">
+              <p className="text-xs tracking-[0.22em] text-neutral-500">
+                01
               </p>
 
               <h3 className="mt-6 text-2xl font-semibold">
                 Connect
               </h3>
 
-              <p className="mt-5 max-w-sm leading-7 text-white/55">
-                Establish useful interfaces between the Cube and core
-                structural elements.
+              <p className="mt-5 leading-7 text-neutral-600">
+                Create a practical mechanical interface between the Cube and
+                structural profile.
               </p>
             </div>
 
-            <div className="border-b border-white/20 py-10 md:border-b-0 md:border-r md:px-10">
-              <p className="text-xs text-white/40">
-                FOCUS 02
+            <div className="border-b border-black/15 py-10 md:border-b-0 md:border-r md:px-8 md:py-0">
+              <p className="text-xs tracking-[0.22em] text-neutral-500">
+                02
               </p>
 
               <h3 className="mt-6 text-2xl font-semibold">
-                Validate
+                Secure
               </h3>
 
-              <p className="mt-5 max-w-sm leading-7 text-white/55">
-                Use practical construction, prototypes and testing to identify
-                which interfaces the platform genuinely needs.
+              <p className="mt-5 leading-7 text-neutral-600">
+                Develop a connection capable of transferring the loads required
+                by the intended configuration.
               </p>
             </div>
 
-            <div className="py-10 md:pl-10">
-              <p className="text-xs text-white/40">
-                FOCUS 03
+            <div className="border-b border-black/15 py-10 md:border-b-0 md:border-r md:px-8 md:py-0">
+              <p className="text-xs tracking-[0.22em] text-neutral-500">
+                03
               </p>
 
               <h3 className="mt-6 text-2xl font-semibold">
-                Expand
+                Release
               </h3>
 
-              <p className="mt-5 max-w-sm leading-7 text-white/55">
-                Add new interfaces as proven applications introduce new
-                structural, material and market requirements.
+              <p className="mt-5 leading-7 text-neutral-600">
+                Allow the structural element to be disconnected as part of
+                deliberate dismantling or reconfiguration.
+              </p>
+            </div>
+
+            <div className="pt-10 md:pl-8">
+              <p className="text-xs tracking-[0.22em] text-neutral-500">
+                04
+              </p>
+
+              <h3 className="mt-6 text-2xl font-semibold">
+                Reuse
+              </h3>
+
+              <p className="mt-5 leading-7 text-neutral-600">
+                Preserve useful system components so they can form part of the
+                next configuration.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* PLATFORM LOGIC */}
-      <section className="blueprint-surface px-6 py-24 md:px-12 md:py-32">
+      {/* MATERIAL DIRECTIONS */}
+      <section className="bg-[#161616] px-6 py-24 text-white md:px-12 md:py-32">
+        <div className="mx-auto max-w-7xl">
+          <div className="grid gap-16 md:grid-cols-2 md:gap-24">
+            <div>
+              <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-white/45">
+                Material Directions
+              </p>
+
+              <h2 className="max-w-xl text-4xl font-medium leading-tight tracking-[-0.03em] md:text-5xl">
+                ONE CUBE.
+                <br />
+                DIFFERENT
+                <br />
+                STRUCTURAL
+                <br />
+                MATERIALS.
+              </h2>
+            </div>
+
+            <div className="flex flex-col justify-end">
+              <p className="max-w-xl text-lg leading-8 text-white/70">
+                Timber and aluminium create different engineering conditions,
+                but both are being explored around the same 150 × 150 mm
+                development baseline.
+              </p>
+
+              <p className="mt-8 max-w-xl text-lg leading-8 text-white/70">
+                Whether one connection design can serve both materials, or
+                whether material-specific interfaces are required, remains an
+                engineering question to be resolved through development and
+                testing.
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-20 grid border-t border-white/20 md:grid-cols-2">
+            <div className="border-b border-white/20 py-10 md:border-b-0 md:border-r md:pr-12">
+              <p className="text-xs uppercase tracking-[0.2em] text-white/35">
+                Timber
+              </p>
+
+              <h3 className="mt-6 text-3xl font-medium">
+                Home &amp; Garden
+              </h3>
+
+              <p className="mt-5 max-w-lg leading-7 text-white/55">
+                Connection development for timber structures, prototypes and
+                future modular outdoor applications.
+              </p>
+            </div>
+
+            <div className="py-10 md:pl-12">
+              <p className="text-xs uppercase tracking-[0.2em] text-white/35">
+                Aluminium
+              </p>
+
+              <h3 className="mt-6 text-3xl font-medium">
+                Lightweight Systems
+              </h3>
+
+              <p className="mt-5 max-w-lg leading-7 text-white/55">
+                Connection development for lightweight modular frames,
+                including the humanitarian kit direction.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* DEVELOPMENT PROCESS */}
+      <section className="blueprint-surface border-b border-black/15 px-6 py-24 md:px-12 md:py-32">
+        <div className="mx-auto max-w-7xl">
+          <p className="mb-12 text-xs font-medium uppercase tracking-[0.22em] text-neutral-500">
+            Development Process
+          </p>
+
+          <div className="grid md:grid-cols-4">
+            <div className="border-b border-black/15 pb-10 md:border-b-0 md:border-r md:pr-8">
+              <p className="text-xs tracking-[0.22em] text-neutral-500">
+                01
+              </p>
+              <h3 className="mt-6 text-2xl font-semibold">Define</h3>
+              <p className="mt-5 leading-7 text-neutral-600">
+                Establish the mechanical and structural requirements of the
+                connection.
+              </p>
+            </div>
+
+            <div className="border-b border-black/15 py-10 md:border-b-0 md:border-r md:px-8 md:py-0">
+              <p className="text-xs tracking-[0.22em] text-neutral-500">
+                02
+              </p>
+              <h3 className="mt-6 text-2xl font-semibold">Prototype</h3>
+              <p className="mt-5 leading-7 text-neutral-600">
+                Develop candidate connection geometries and physical
+                prototypes.
+              </p>
+            </div>
+
+            <div className="border-b border-black/15 py-10 md:border-b-0 md:border-r md:px-8 md:py-0">
+              <p className="text-xs tracking-[0.22em] text-neutral-500">
+                03
+              </p>
+              <h3 className="mt-6 text-2xl font-semibold">Test</h3>
+              <p className="mt-5 leading-7 text-neutral-600">
+                Evaluate structural behaviour, assembly, disassembly and
+                repeated use.
+              </p>
+            </div>
+
+            <div className="pt-10 md:pl-8">
+              <p className="text-xs tracking-[0.22em] text-neutral-500">
+                04
+              </p>
+              <h3 className="mt-6 text-2xl font-semibold">Validate</h3>
+              <p className="mt-5 leading-7 text-neutral-600">
+                Determine which solution should become part of the 4D-CUBE
+                platform.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CURRENT STATUS */}
+      <section className="px-6 py-24 md:px-12 md:py-32">
         <div className="mx-auto grid max-w-7xl gap-16 md:grid-cols-2 md:gap-24">
           <div>
             <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-neutral-500">
-              Platform Logic
+              Current Status
             </p>
 
             <h2 className="max-w-xl text-4xl font-medium leading-tight tracking-[-0.03em] md:text-5xl">
-              THE CUBE
+              SOLVE THE
               <br />
-              STAYS.
+              FIRST CONNECTION
               <br />
-              THE SYSTEM GROWS.
+              BEFORE BUILDING
+              <br />
+              A FAMILY.
             </h2>
           </div>
 
           <div className="flex flex-col justify-end">
             <p className="max-w-xl text-lg leading-8 text-neutral-700">
-              New fittings can extend the 4D-CUBE platform without requiring
-              the underlying connection principle to be reinvented.
+              Additional fittings and interfaces may become relevant as the
+              platform develops.
             </p>
 
             <p className="mt-8 max-w-xl text-lg leading-8 text-neutral-700">
-              Timber, aluminium and future structural systems can therefore be
-              approached through the same core platform while the interfaces
-              around it continue to evolve.
+              For now, the priority is deliberately narrower: develop,
+              prototype and validate the core removable connection between the
+              Cube and the structural profile.
             </p>
 
-            <div className="mt-14 border-t border-black/20 pt-8">
-              <p className="text-2xl font-medium">
-                Each fitting extends the platform.
+            <div className="mt-12 border-t border-black/20 pt-8">
+              <p className="text-3xl font-medium tracking-[-0.03em]">
+                Cube → Connection → Profile.
               </p>
             </div>
           </div>

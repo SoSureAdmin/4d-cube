@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function HomeGardenPage() {
   return (
-    <main className="min-h-screen bg-[#f4f1eb] text-[#171717]">
+    <main className="min-h-screen text-[#171717]">
       {/* HERO */}
       <section className="blueprint-surface px-6 py-24 md:px-12 md:py-32">
         <div className="mx-auto max-w-7xl">
@@ -14,32 +14,69 @@ export default function HomeGardenPage() {
               </p>
 
               <h1 className="max-w-xl text-5xl font-semibold uppercase leading-[0.92] tracking-[-0.04em] md:text-7xl">
-                ONE SYSTEM.
+                BUILD IT.
                 <br />
-                BUILD IT
+                CHANGE IT.
                 <br />
-                YOUR WAY.
+                BUILD AGAIN.
               </h1>
             </div>
 
             <div className="flex flex-col justify-end">
               <p className="max-w-xl text-lg leading-8 text-neutral-700">
-                Outdoor projects rarely start with the same dimensions,
-                surroundings or requirements.
+                Outdoor structures should not have to become permanent simply
+                because they have been built.
               </p>
 
               <p className="mt-8 max-w-xl text-lg leading-8 text-neutral-700">
-                4D-CUBE applies a standardized connection principle to
-                structures that can be configured around different spaces,
-                materials and uses.
+                4D-CUBE is being developed around reusable structural
+                components that can be configured for one space, dismantled
+                and potentially used again somewhere else.
               </p>
             </div>
           </div>
         </div>
       </section>
 
+      {/* THE IDEA */}
+      <section className="border-t border-black/15 px-6 py-24 md:px-12 md:py-32">
+        <div className="mx-auto grid max-w-7xl gap-16 md:grid-cols-2 md:gap-24">
+          <div>
+            <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-neutral-500">
+              A Different Approach
+            </p>
+
+            <h2 className="max-w-xl text-4xl font-medium leading-tight tracking-[-0.03em] md:text-5xl">
+              THE VALUE
+              <br />
+              STAYS IN THE
+              <br />
+              COMPONENTS.
+            </h2>
+          </div>
+
+          <div className="flex flex-col justify-end">
+            <p className="max-w-xl text-lg leading-8 text-neutral-700">
+              A pergola, garden structure or outdoor workspace is normally
+              designed for one location and one configuration.
+            </p>
+
+            <p className="mt-8 max-w-xl text-lg leading-8 text-neutral-700">
+              4D-CUBE explores another approach: standardized Cubes,
+              structural profiles and removable connections that can remain
+              useful even when the original structure is no longer needed.
+            </p>
+
+            <p className="mt-8 max-w-xl text-lg leading-8 text-neutral-700">
+              Move home, change the garden or change the requirement — the
+              components can potentially move and change with you.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* PROTOTYPE */}
-      <section className="border-t border-black/15 px-6 py-20 md:px-12 md:py-24">
+      <section className="blueprint-surface border-t border-black/15 px-6 py-20 md:px-12 md:py-24">
         <div className="mx-auto max-w-7xl">
           <p className="mb-12 text-xs font-medium uppercase tracking-[0.22em] text-neutral-500">
             Prototype
@@ -72,22 +109,22 @@ export default function HomeGardenPage() {
               </p>
 
               <p className="mt-8 max-w-xl text-lg leading-8 text-neutral-700">
-                Practical construction provides the basis for refining the
-                system before finished kits, dimensions and product
-                configurations are defined.
+                The objective is not only to make structures easier to build,
+                but to develop a system that can also be taken apart,
+                reconfigured and used again.
               </p>
             </div>
           </div>
 
           <div className="mt-5 flex flex-col gap-2 text-xs uppercase tracking-[0.18em] text-neutral-500 md:flex-row md:justify-between">
             <span>Prototype / Home &amp; Garden Development</span>
-            <span>Connection → Frame → Outdoor Structure</span>
+            <span>Connection → Frame → Structure</span>
           </div>
         </div>
       </section>
 
       {/* APPLICATION DIRECTIONS */}
-      <section className="blueprint-surface border-t border-black/15 px-6 py-20 md:px-12 md:py-24">
+      <section className="border-t border-black/15 px-6 py-20 md:px-12 md:py-24">
         <div className="mx-auto max-w-7xl">
           <p className="mb-12 text-xs font-medium uppercase tracking-[0.22em] text-neutral-500">
             Application Directions
@@ -102,8 +139,7 @@ export default function HomeGardenPage() {
               <h2 className="text-2xl font-semibold">Pergola</h2>
 
               <p className="mt-5 max-w-xs leading-7 text-neutral-600">
-                Modular structural frames for terraces, gardens and outdoor
-                living spaces.
+                Modular frames for terraces, gardens, shade and outdoor living.
               </p>
             </div>
 
@@ -141,7 +177,7 @@ export default function HomeGardenPage() {
               <h2 className="text-2xl font-semibold">Workspace</h2>
 
               <p className="mt-5 max-w-xs leading-7 text-neutral-600">
-                Configurable structures for workshops, storage and practical
+                Reconfigurable structures for workshops, storage and practical
                 everyday uses.
               </p>
             </div>
@@ -149,45 +185,131 @@ export default function HomeGardenPage() {
         </div>
       </section>
 
-      {/* SYSTEM */}
-      <section className="border-t border-black/15 bg-[#161616] px-6 py-24 text-white md:px-12 md:py-32">
+      {/* LIFECYCLE */}
+      <section className="bg-[#161616] px-6 py-24 text-white md:px-12 md:py-32">
         <div className="mx-auto max-w-7xl">
-          <div className="grid gap-16 md:grid-cols-2 md:gap-24">
-            <div>
-              <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-white/50">
-                A Configurable System
-              </p>
+          <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-white/45">
+            Designed To Stay Useful
+          </p>
 
-              <h2 className="max-w-xl text-4xl font-medium leading-tight tracking-[-0.03em] md:text-5xl">
-                START WITH
+          <h2 className="max-w-4xl text-4xl font-medium leading-tight tracking-[-0.03em] md:text-6xl">
+            YOUR NEEDS CHANGE.
+            <br />
+            YOUR STRUCTURE CAN TOO.
+          </h2>
+
+          <div className="mt-20 grid border-t border-white/20 md:grid-cols-3">
+            {[
+              ["01", "Build", "Configure the structure for the space you have today."],
+              ["02", "Use", "Use the structure for its current purpose."],
+              [
+                "03",
+                "Expand / Reduce",
+                "Add or remove structural modules as requirements change.",
+              ],
+              [
+                "04",
+                "Dismantle",
+                "Take the structure apart while preserving reusable components.",
+              ],
+              [
+                "05",
+                "Move",
+                "Take the structural components with you when circumstances change.",
+              ],
+              [
+                "06",
+                "Rebuild",
+                "Create the same structure again — or configure something different.",
+              ],
+            ].map(([number, title, text]) => (
+              <div
+                key={number}
+                className="border-b border-white/20 py-10 md:border-r md:px-8 first:md:pl-0"
+              >
+                <p className="text-xs tracking-[0.22em] text-white/35">
+                  {number}
+                </p>
+
+                <h3 className="mt-6 text-2xl font-semibold">{title}</h3>
+
+                <p className="mt-4 max-w-xs leading-7 text-white/55">
+                  {text}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* MOBILITY */}
+      <section className="blueprint-surface border-t border-black/15 px-6 py-24 md:px-12 md:py-32">
+        <div className="mx-auto grid max-w-7xl gap-16 md:grid-cols-2 md:gap-24">
+          <div>
+            <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-neutral-500">
+              Built To Move
+            </p>
+
+            <h2 className="max-w-xl text-4xl font-medium leading-tight tracking-[-0.03em] md:text-5xl">
+              YOUR STRUCTURE
+              <br />
+              DOESN&apos;T HAVE
+              <br />
+              TO STAY WHEN
+              <br />
+              YOU MOVE.
+            </h2>
+          </div>
+
+          <div className="flex flex-col justify-end">
+            <p className="max-w-xl text-lg leading-8 text-neutral-700">
+              For homeowners, garden owners and other users, a change of
+              location should not necessarily mean starting again from zero.
+            </p>
+
+            <p className="mt-8 max-w-xl text-lg leading-8 text-neutral-700">
+              A system based on removable connections and reusable structural
+              components creates the possibility of taking much of the
+              structure with you and adapting it to the next location.
+            </p>
+
+            <div className="mt-12 border-t border-black/20 pt-8">
+              <p className="max-w-xl text-3xl font-medium leading-tight tracking-[-0.03em]">
+                You don&apos;t move the structure.
                 <br />
-                THE FRAME.
-                <br />
-                BUILD FURTHER.
-              </h2>
-            </div>
-
-            <div className="flex flex-col justify-end">
-              <p className="max-w-xl text-lg leading-8 text-white/70">
-                Instead of treating every outdoor project as a completely new
-                construction method, 4D-CUBE provides a common connection
-                principle from which different structural configurations can
-                be developed.
-              </p>
-
-              <p className="mt-8 max-w-xl text-lg leading-8 text-white/70">
-                The longer-term objective is to turn proven configurations into
-                repeatable building kits while retaining the ability to adapt
-                dimensions, materials and applications.
+                You move the system.
               </p>
             </div>
           </div>
+        </div>
+      </section>
 
-          <div className="mt-20 border-t border-white/20 pt-10">
-            <p className="max-w-4xl text-3xl font-medium leading-tight tracking-[-0.03em] md:text-5xl">
-              One connection principle.
+      {/* DEVELOPMENT */}
+      <section className="border-t border-black/15 px-6 py-20 md:px-12 md:py-24">
+        <div className="mx-auto grid max-w-7xl gap-16 md:grid-cols-2 md:gap-24">
+          <div>
+            <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-neutral-500">
+              Development
+            </p>
+
+            <h2 className="max-w-xl text-4xl font-medium leading-tight tracking-[-0.03em] md:text-5xl">
+              FROM
               <br />
-              Many ways to build.
+              PROTOTYPE
+              <br />
+              TO KIT.
+            </h2>
+          </div>
+
+          <div className="flex flex-col justify-end">
+            <p className="max-w-xl text-lg leading-8 text-neutral-700">
+              Home &amp; Garden configurations are currently being explored
+              through prototypes and system development.
+            </p>
+
+            <p className="mt-8 max-w-xl text-lg leading-8 text-neutral-700">
+              Dimensions, connections, structural requirements and finished
+              product kits will be defined as engineering and testing progress.
             </p>
           </div>
         </div>

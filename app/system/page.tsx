@@ -97,6 +97,126 @@ export default function SystemPage() {
         </div>
       </section>
 
+      {/* HOW IT WORKS */}
+      <section className="blueprint-surface border-b border-black/15">
+        <div className="mx-auto max-w-6xl px-6 py-24 md:px-10 md:py-32">
+          <div className="grid gap-16 md:grid-cols-2 md:gap-24">
+            <div>
+              <p className="mb-6 text-xs font-medium uppercase tracking-[0.28em] text-neutral-500">
+                How It Works
+              </p>
+
+              <h2 className="max-w-lg text-4xl font-medium leading-tight tracking-[-0.03em] md:text-5xl">
+                THE CUBE
+                <br />
+                IS CONSTANT.
+                <br />
+                THE STRUCTURE
+                <br />
+                CAN CHANGE.
+              </h2>
+            </div>
+
+            <div className="flex flex-col justify-end">
+              <p className="max-w-xl text-lg leading-8 text-neutral-700">
+                4D-CUBE is being developed as a system of standardized
+                structural components connected through a common node.
+              </p>
+
+              <p className="mt-8 max-w-xl text-lg leading-8 text-neutral-700">
+                The objective is to make individual structural elements
+                removable and reusable, allowing a configuration to evolve
+                without turning the complete structure into a permanent
+                assembly.
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-20 border-y border-black/20 py-8">
+            <div className="flex flex-col gap-4 text-sm font-medium uppercase tracking-[0.16em] md:flex-row md:items-center md:justify-between">
+              <span>Profile</span>
+              <span className="text-neutral-400">→</span>
+              <span>Connection</span>
+              <span className="text-neutral-400">→</span>
+              <span>Cube</span>
+              <span className="text-neutral-400">→</span>
+              <span>Frame</span>
+              <span className="text-neutral-400">→</span>
+              <span>Structure</span>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-5">
+            <div className="border-b border-black/15 py-10 md:border-b-0 md:border-r md:pr-6">
+              <p className="text-xs tracking-[0.22em] text-neutral-500">01</p>
+
+              <h3 className="mt-6 text-xl font-semibold">Profile</h3>
+
+              <p className="mt-4 text-sm leading-6 text-neutral-600">
+                150 × 150 mm structural elements form the current baseline for
+                timber and aluminium development.
+              </p>
+            </div>
+
+            <div className="border-b border-black/15 py-10 md:border-b-0 md:border-r md:px-6">
+              <p className="text-xs tracking-[0.22em] text-neutral-500">02</p>
+
+              <h3 className="mt-6 text-xl font-semibold">Connection</h3>
+
+              <p className="mt-4 text-sm leading-6 text-neutral-600">
+                A removable interface between the structural profile and the
+                Cube.
+              </p>
+
+              <p className="mt-5 text-xs font-medium uppercase tracking-[0.14em] text-neutral-400">
+                Under development
+              </p>
+            </div>
+
+            <div className="border-b border-black/15 py-10 md:border-b-0 md:border-r md:px-6">
+              <p className="text-xs tracking-[0.22em] text-neutral-500">03</p>
+
+              <h3 className="mt-6 text-xl font-semibold">Cube</h3>
+
+              <p className="mt-4 text-sm leading-6 text-neutral-600">
+                The standardized structural node at the centre of the 4D-CUBE
+                system.
+              </p>
+            </div>
+
+            <div className="border-b border-black/15 py-10 md:border-b-0 md:border-r md:px-6">
+              <p className="text-xs tracking-[0.22em] text-neutral-500">04</p>
+
+              <h3 className="mt-6 text-xl font-semibold">Frame</h3>
+
+              <p className="mt-4 text-sm leading-6 text-neutral-600">
+                Repeated connections combine profiles and Cubes into
+                configurable structural frames.
+              </p>
+            </div>
+
+            <div className="py-10 md:pl-6">
+              <p className="text-xs tracking-[0.22em] text-neutral-500">05</p>
+
+              <h3 className="mt-6 text-xl font-semibold">Structure</h3>
+
+              <p className="mt-4 text-sm leading-6 text-neutral-600">
+                Frames create structures that can be adapted as requirements,
+                locations and applications change.
+              </p>
+            </div>
+          </div>
+
+          <div className="border-t border-black/20 pt-10">
+            <p className="max-w-4xl text-3xl font-medium leading-tight tracking-[-0.03em] md:text-4xl">
+              Build. Use. Expand or reduce.
+              <br />
+              Dismantle. Transport. Rebuild.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* PROTOTYPE IMAGE */}
       <section className="border-b border-black/15">
         <div className="mx-auto max-w-6xl px-6 py-20 md:px-10 md:py-28">

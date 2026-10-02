@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function ProfessionalPage() {
   return (
-    <main className="min-h-screen bg-[#f4f1eb] text-[#171717]">
+    <main className="min-h-screen text-[#171717]">
       {/* HERO */}
       <section className="blueprint-surface px-6 py-24 md:px-12 md:py-32">
         <div className="mx-auto max-w-7xl">
@@ -13,26 +13,24 @@ export default function ProfessionalPage() {
               </p>
 
               <h1 className="max-w-xl text-5xl font-semibold uppercase leading-[0.92] tracking-[-0.04em] md:text-7xl">
-                STANDARDIZE
+                BUILD ONCE.
                 <br />
-                THE
+                CONFIGURE
                 <br />
-                CONNECTION.
+                AGAIN.
               </h1>
             </div>
 
             <div className="flex flex-col justify-end">
               <p className="max-w-xl text-lg leading-8 text-neutral-700">
-                Professional applications require more than a successful
-                one-off structure. They require consistency, repeatability and
-                the ability to adapt a common principle across different
-                projects.
+                Professional structures often change from one project,
+                location or requirement to the next.
               </p>
 
               <p className="mt-8 max-w-xl text-lg leading-8 text-neutral-700">
-                4D-CUBE applies a standardized connection principle to a
-                modular construction platform that can form the basis for
-                repeatable structural configurations.
+                4D-CUBE is being developed as a modular construction platform
+                where standardized components can form different structures
+                without making every new requirement a completely new build.
               </p>
             </div>
           </div>
@@ -52,11 +50,11 @@ export default function ProfessionalPage() {
                 01
               </p>
 
-              <h2 className="text-2xl font-semibold">Standardize</h2>
+              <h2 className="text-2xl font-semibold">Repeat</h2>
 
               <p className="mt-5 max-w-xs leading-7 text-neutral-600">
-                Establish a common connection principle as a repeatable
-                interface across different structural configurations.
+                Use a common structural platform across repeat projects and
+                installations.
               </p>
             </div>
 
@@ -65,11 +63,11 @@ export default function ProfessionalPage() {
                 02
               </p>
 
-              <h2 className="text-2xl font-semibold">Configure</h2>
+              <h2 className="text-2xl font-semibold">Reconfigure</h2>
 
               <p className="mt-5 max-w-xs leading-7 text-neutral-600">
-                Adapt structural frames to different dimensions, layouts,
-                materials and intended uses.
+                Change dimensions and layouts by reorganising reusable
+                structural components.
               </p>
             </div>
 
@@ -78,11 +76,11 @@ export default function ProfessionalPage() {
                 03
               </p>
 
-              <h2 className="text-2xl font-semibold">Integrate</h2>
+              <h2 className="text-2xl font-semibold">Redeploy</h2>
 
               <p className="mt-5 max-w-xs leading-7 text-neutral-600">
-                Develop interfaces around the same platform for structural
-                elements, materials and additional building components.
+                Dismantle structural systems and deploy the components at
+                another project or location.
               </p>
             </div>
 
@@ -91,11 +89,54 @@ export default function ProfessionalPage() {
                 04
               </p>
 
-              <h2 className="text-2xl font-semibold">Repeat</h2>
+              <h2 className="text-2xl font-semibold">Reuse</h2>
 
               <p className="mt-5 max-w-xs leading-7 text-neutral-600">
-                Turn validated configurations into repeatable projects, kits
-                and structural systems.
+                Keep structural components productive beyond a single
+                installation or configuration.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* PLATFORM VALUE */}
+      <section className="blueprint-surface border-t border-black/15 px-6 py-24 md:px-12 md:py-32">
+        <div className="mx-auto grid max-w-7xl gap-16 md:grid-cols-2 md:gap-24">
+          <div>
+            <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-neutral-500">
+              Platform Value
+            </p>
+
+            <h2 className="max-w-xl text-4xl font-medium leading-tight tracking-[-0.03em] md:text-5xl">
+              INVEST IN
+              <br />
+              COMPONENTS.
+              <br />
+              NOT ONLY
+              <br />
+              STRUCTURES.
+            </h2>
+          </div>
+
+          <div className="flex flex-col justify-end">
+            <p className="max-w-xl text-lg leading-8 text-neutral-700">
+              A conventional project often creates value for one specific
+              installation. When that installation is no longer required,
+              much of the structural value may be difficult to retain.
+            </p>
+
+            <p className="mt-8 max-w-xl text-lg leading-8 text-neutral-700">
+              4D-CUBE explores a different model: retain value in standardized
+              components that can potentially move from one configuration,
+              project or location to another.
+            </p>
+
+            <div className="mt-12 border-t border-black/20 pt-8">
+              <p className="max-w-xl text-3xl font-medium leading-tight tracking-[-0.03em]">
+                The project can end.
+                <br />
+                The system remains.
               </p>
             </div>
           </div>
@@ -103,78 +144,194 @@ export default function ProfessionalPage() {
       </section>
 
       {/* APPLICATION DIRECTIONS */}
-      <section className="blueprint-surface border-t border-black/15 px-6 py-24 md:px-12 md:py-32">
+      <section className="border-t border-black/15 px-6 py-20 md:px-12 md:py-24">
         <div className="mx-auto max-w-7xl">
-          <div className="grid gap-16 md:grid-cols-2 md:gap-24">
-            <div>
-              <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-neutral-500">
-                Application Directions
+          <p className="mb-12 text-xs font-medium uppercase tracking-[0.22em] text-neutral-500">
+            Application Directions
+          </p>
+
+          <div className="grid md:grid-cols-4">
+            <div className="border-b border-black/15 pb-10 md:border-b-0 md:border-r md:pr-8">
+              <p className="mb-5 text-xs tracking-[0.22em] text-neutral-500">
+                01
               </p>
 
-              <h2 className="max-w-xl text-4xl font-medium leading-tight tracking-[-0.03em] md:text-5xl">
-                FROM
-                <br />
-                ONE-OFF
-                <br />
-                TO SYSTEM.
-              </h2>
+              <h2 className="text-2xl font-semibold">Retail</h2>
+
+              <p className="mt-5 max-w-xs leading-7 text-neutral-600">
+                Configurable structures for temporary retail, shop-in-shop
+                concepts and changing commercial environments.
+              </p>
             </div>
 
-            <div className="flex flex-col justify-end">
-              <p className="max-w-xl text-lg leading-8 text-neutral-700">
-                The value of a standardized connection principle increases
-                when structures are repeated, adapted across sites or
-                incorporated into broader product and distribution models.
+            <div className="border-b border-black/15 py-10 md:border-b-0 md:border-r md:px-8 md:py-0">
+              <p className="mb-5 text-xs tracking-[0.22em] text-neutral-500">
+                02
               </p>
 
-              <p className="mt-8 max-w-xl text-lg leading-8 text-neutral-700">
-                Potential directions include commercial structures, retail
-                concepts, temporary installations, modular facilities,
-                exhibitions and configurable building systems.
+              <h2 className="text-2xl font-semibold">Exhibition</h2>
+
+              <p className="mt-5 max-w-xs leading-7 text-neutral-600">
+                Structural systems that can be transported, rebuilt and
+                reconfigured across events and locations.
+              </p>
+            </div>
+
+            <div className="border-b border-black/15 py-10 md:border-b-0 md:border-r md:px-8 md:py-0">
+              <p className="mb-5 text-xs tracking-[0.22em] text-neutral-500">
+                03
+              </p>
+
+              <h2 className="text-2xl font-semibold">Facilities</h2>
+
+              <p className="mt-5 max-w-xs leading-7 text-neutral-600">
+                Modular frames for temporary or adaptable operational spaces
+                and facilities.
+              </p>
+            </div>
+
+            <div className="pt-10 md:pl-8 md:pt-0">
+              <p className="mb-5 text-xs tracking-[0.22em] text-neutral-500">
+                04
+              </p>
+
+              <h2 className="text-2xl font-semibold">Projects</h2>
+
+              <p className="mt-5 max-w-xs leading-7 text-neutral-600">
+                A common structural platform for partners developing repeatable
+                project-specific configurations.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* DEVELOPMENT LOGIC */}
+      {/* LIFECYCLE */}
       <section className="bg-[#161616] px-6 py-24 text-white md:px-12 md:py-32">
         <div className="mx-auto max-w-7xl">
-          <div className="grid gap-16 md:grid-cols-2 md:gap-24">
-            <div>
-              <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-white/50">
-                Development Logic
-              </p>
+          <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-white/45">
+            Built For Reuse
+          </p>
 
-              <h2 className="max-w-xl text-4xl font-medium leading-tight tracking-[-0.03em] md:text-5xl">
-                PROVE.
-                <br />
-                REPEAT.
-                <br />
-                SCALE.
-              </h2>
-            </div>
+          <h2 className="max-w-4xl text-4xl font-medium leading-tight tracking-[-0.03em] md:text-6xl">
+            ONE SYSTEM.
+            <br />
+            MULTIPLE PROJECTS.
+          </h2>
 
-            <div className="flex flex-col justify-end">
-              <p className="max-w-xl text-lg leading-8 text-white/70">
-                Professional value depends on more than the connection concept.
-                Individual configurations must be engineered, tested and
-                validated for their intended use.
-              </p>
+          <div className="mt-20 grid border-t border-white/20 md:grid-cols-3">
+            {[
+              [
+                "01",
+                "Build",
+                "Configure the structural system for the first requirement.",
+              ],
+              [
+                "02",
+                "Deploy",
+                "Use the configuration for its intended project or location.",
+              ],
+              [
+                "03",
+                "Reconfigure",
+                "Change dimensions or layout when the requirement changes.",
+              ],
+              [
+                "04",
+                "Dismantle",
+                "Separate the structure into reusable system components.",
+              ],
+              [
+                "05",
+                "Redeploy",
+                "Move the components to another project or location.",
+              ],
+              [
+                "06",
+                "Reuse",
+                "Create the next configuration from the same underlying system.",
+              ],
+            ].map(([number, title, text]) => (
+              <div
+                key={number}
+                className="border-b border-white/20 py-10 md:border-r md:px-8 first:md:pl-0"
+              >
+                <p className="text-xs tracking-[0.22em] text-white/35">
+                  {number}
+                </p>
 
-              <p className="mt-8 max-w-xl text-lg leading-8 text-white/70">
-                Once a configuration is proven, the same underlying platform
-                can provide the basis for repeatable products, project systems
-                and broader commercial applications.
-              </p>
-            </div>
+                <h3 className="mt-6 text-2xl font-semibold">{title}</h3>
+
+                <p className="mt-4 max-w-xs leading-7 text-white/55">
+                  {text}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* PARTNERSHIP MODEL */}
+      <section className="blueprint-surface border-t border-black/15 px-6 py-24 md:px-12 md:py-32">
+        <div className="mx-auto grid max-w-7xl gap-16 md:grid-cols-2 md:gap-24">
+          <div>
+            <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-neutral-500">
+              Partnership
+            </p>
+
+            <h2 className="max-w-xl text-4xl font-medium leading-tight tracking-[-0.03em] md:text-5xl">
+              A PLATFORM
+              <br />
+              FOR PARTNERS
+              <br />
+              TO BUILD ON.
+            </h2>
           </div>
 
-          <div className="mt-20 border-t border-white/20 pt-10">
-            <p className="max-w-4xl text-3xl font-medium leading-tight tracking-[-0.03em] md:text-5xl">
-              Standardize the connection.
+          <div className="flex flex-col justify-end">
+            <p className="max-w-xl text-lg leading-8 text-neutral-700">
+              The long-term opportunity is not limited to structures developed
+              directly by 4D-CUBE.
+            </p>
+
+            <p className="mt-8 max-w-xl text-lg leading-8 text-neutral-700">
+              A standardized platform could allow selected manufacturers,
+              designers, distributors and project partners to develop
+              application-specific solutions around the same underlying
+              system.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* DEVELOPMENT LOGIC */}
+      <section className="border-t border-black/15 px-6 py-24 md:px-12 md:py-32">
+        <div className="mx-auto grid max-w-7xl gap-16 md:grid-cols-2 md:gap-24">
+          <div>
+            <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-neutral-500">
+              Development Logic
+            </p>
+
+            <h2 className="max-w-xl text-4xl font-medium leading-tight tracking-[-0.03em] md:text-5xl">
+              PROVE.
               <br />
-              Prove the configuration.
+              REPEAT.
+              <br />
+              SCALE.
+            </h2>
+          </div>
+
+          <div className="flex flex-col justify-end">
+            <p className="max-w-xl text-lg leading-8 text-neutral-700">
+              Professional applications must be engineered, tested and
+              validated for their specific structural requirements and
+              intended use.
+            </p>
+
+            <p className="mt-8 max-w-xl text-lg leading-8 text-neutral-700">
+              Once configurations are proven, the underlying platform can
+              provide the basis for repeatable products, project systems and
+              partner-led applications.
             </p>
           </div>
         </div>

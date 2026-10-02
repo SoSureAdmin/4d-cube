@@ -10,9 +10,13 @@ export default function Footer() {
 
           {/* Brand */}
           <div>
-            <p className="text-lg font-semibold tracking-tight">
-              4D-CUBE
-            </p>
+            <Link
+  href="/"
+  className="inline-block text-lg font-semibold tracking-tight transition-opacity hover:opacity-60"
+  aria-label="4D-CUBE home"
+>
+  4D-CUBE
+</Link>
 
             <p className="mt-4 max-w-[280px] text-sm leading-6 text-white/55">
               Modular building systems designed to adapt, expand,
