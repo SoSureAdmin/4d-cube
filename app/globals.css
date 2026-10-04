@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f4f1eb;
+  --background: #e8dfc9;
   --foreground: #171717;
 }
 
@@ -13,29 +13,103 @@
 }
 
 html {
-  background: #f4f1eb;
+  background: #e8dfc9;
 }
 
 body {
-  background-color: #f4f1eb;
+  background-color: #e8dfc9;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* 4D-CUBE global technical blueprint background */
+/* 4D-CUBE aged architectural drawing surface */
 main {
-  background-color: #f4f1eb;
-  background-image: url("/4d-blueprint.svg");
-  background-size: 1800px auto;
-  background-position: center top;
-  background-repeat: repeat-y;
+  background-color: #e8dfc9;
+
+  background-image:
+    radial-gradient(
+      circle at 18% 14%,
+      rgba(255, 255, 255, 0.16) 0,
+      rgba(255, 255, 255, 0) 28%
+    ),
+    radial-gradient(
+      circle at 82% 42%,
+      rgba(112, 86, 42, 0.07) 0,
+      rgba(112, 86, 42, 0) 32%
+    ),
+    radial-gradient(
+      circle at 35% 78%,
+      rgba(93, 70, 35, 0.055) 0,
+      rgba(93, 70, 35, 0) 26%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(86, 67, 38, 0.025) 0%,
+      rgba(255, 255, 255, 0.025) 48%,
+      rgba(86, 67, 38, 0.035) 100%
+    ),
+    url("/4d-blueprint.svg");
+
+  background-size:
+    auto,
+    auto,
+    auto,
+    auto,
+    1800px auto;
+
+  background-position:
+    center,
+    center,
+    center,
+    center,
+    center top;
+
+  background-repeat:
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    repeat-y;
 }
 
-/* Reusable blueprint surface */
+/* Reusable aged blueprint surface */
 .blueprint-surface {
-  background-color: #f4f1eb;
-  background-image: url("/4d-blueprint.svg");
-  background-size: 1800px auto;
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-color: #e8dfc9;
+
+  background-image:
+    radial-gradient(
+      circle at 20% 20%,
+      rgba(255, 255, 255, 0.17) 0,
+      rgba(255, 255, 255, 0) 30%
+    ),
+    radial-gradient(
+      circle at 80% 70%,
+      rgba(105, 78, 37, 0.07) 0,
+      rgba(105, 78, 37, 0) 34%
+    ),
+    linear-gradient(
+      105deg,
+      rgba(93, 69, 34, 0.025),
+      rgba(255, 255, 255, 0.025),
+      rgba(93, 69, 34, 0.04)
+    ),
+    url("/4d-blueprint.svg");
+
+  background-size:
+    auto,
+    auto,
+    auto,
+    1800px auto;
+
+  background-position:
+    center,
+    center,
+    center,
+    center center;
+
+  background-repeat:
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat;
 }
