@@ -4,9 +4,11 @@ import Link from "next/link";
 export default function SchroderCyklerPage() {
   return (
     <main className="min-h-screen bg-[#e8dfc9] text-[#161616]">
+
       {/* HERO */}
       <section className="blueprint-surface border-b border-black/15 px-6 py-24 md:px-16 md:py-32">
         <div className="mx-auto max-w-7xl">
+
           <p className="mb-6 text-sm font-medium uppercase tracking-[0.24em] text-neutral-500">
             The Story
           </p>
@@ -31,10 +33,11 @@ export default function SchroderCyklerPage() {
         </div>
       </section>
 
-      {/* VILHELM */}
+      {/* FROM FATHER TO SON */}
       <section className="bg-[#292722] px-6 py-24 text-white md:px-16 md:py-32">
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-16 md:grid-cols-2 md:gap-24">
+
             <div>
               <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-white/50">
                 From Father To Son
@@ -63,23 +66,24 @@ export default function SchroderCyklerPage() {
                 at it and said:
               </p>
 
-              <blockquote className="mt-12 border-l border-white/40 pl-8">
-                <p className="max-w-xl text-3xl font-medium leading-tight tracking-[-0.03em] md:text-5xl">
+              <blockquote className="mt-10 border-l border-white/25 pl-6">
+                <p className="text-3xl font-medium leading-tight tracking-[-0.03em] md:text-4xl">
                   “That one I believe in, my boy.”
                 </p>
 
-                <p className="mt-6 text-xs font-medium uppercase tracking-[0.22em] text-white/40">
+                <p className="mt-5 text-[10px] font-medium uppercase tracking-[0.24em] text-white/40">
                   Vilhelm Christiansen
                 </p>
               </blockquote>
 
-              <p className="mt-12 max-w-xl text-lg leading-8 text-white/70">
+              <p className="mt-10 max-w-xl text-lg leading-8 text-white/70">
                 Coming from his father, those few words meant something. They
                 were not a business case or a technical validation. They were
                 the recognition of an idea from a man whose life had been built
                 around practical craftsmanship and making things work.
               </p>
             </div>
+
           </div>
         </div>
       </section>
@@ -88,6 +92,7 @@ export default function SchroderCyklerPage() {
       <section className="border-b border-black/15 px-6 py-20 md:px-16 md:py-28">
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-12 md:grid-cols-[1.15fr_0.85fr] md:gap-20">
+
             <div>
               <div className="relative aspect-[4/3] overflow-hidden bg-black/5">
                 <Image
@@ -126,6 +131,7 @@ export default function SchroderCyklerPage() {
                 improving it and putting it together again.
               </p>
             </div>
+
           </div>
         </div>
       </section>
@@ -134,6 +140,7 @@ export default function SchroderCyklerPage() {
       <section className="bg-[#292722] px-6 py-24 text-white md:px-16 md:py-32">
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-16 md:grid-cols-2 md:gap-24">
+
             <div>
               <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-white/50">
                 A Way of Thinking
@@ -163,6 +170,7 @@ export default function SchroderCyklerPage() {
                 those parts can be connected, separated and used again.
               </p>
             </div>
+
           </div>
         </div>
       </section>
@@ -171,6 +179,7 @@ export default function SchroderCyklerPage() {
       <section className="border-b border-black/15 px-6 py-24 md:px-16 md:py-32">
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-16 md:grid-cols-2 md:gap-24">
+
             <div>
               <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-neutral-500">
                 From Then To Now
@@ -200,6 +209,7 @@ export default function SchroderCyklerPage() {
                 and allow many different structures to grow from it.
               </p>
             </div>
+
           </div>
         </div>
       </section>
@@ -208,6 +218,7 @@ export default function SchroderCyklerPage() {
       <section className="blueprint-surface px-6 py-24 md:px-16 md:py-32">
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-16 md:grid-cols-2 md:gap-24">
+
             <div>
               <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-neutral-500">
                 The Continuation
@@ -236,6 +247,7 @@ export default function SchroderCyklerPage() {
                 Explore the 4D-CUBE system →
               </Link>
             </div>
+
           </div>
 
           <div className="mt-24 border-t border-black/20 pt-10">
@@ -245,6 +257,7 @@ export default function SchroderCyklerPage() {
           </div>
         </div>
       </section>
+
     </main>
   );
 }
