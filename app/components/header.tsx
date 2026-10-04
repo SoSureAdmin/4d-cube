@@ -31,7 +31,8 @@ export default function Header() {
           <Link
             href="/connections"
             className="transition-opacity hover:opacity-50"
-          >Connections
+          >
+            Connections
           </Link>
 
           <Link
@@ -39,6 +40,13 @@ export default function Header() {
             className="transition-opacity hover:opacity-50"
           >
             Applications
+          </Link>
+
+          <Link
+            href="/market"
+            className="transition-opacity hover:opacity-50"
+          >
+            Market
           </Link>
 
           <Link

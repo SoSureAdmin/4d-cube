@@ -11,12 +11,12 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <Link
-  href="/"
-  className="inline-block text-lg font-semibold tracking-tight transition-opacity hover:opacity-60"
-  aria-label="4D-CUBE home"
->
-  4D-CUBE
-</Link>
+              href="/"
+              className="inline-block text-lg font-semibold tracking-tight transition-opacity hover:opacity-60"
+              aria-label="4D-CUBE home"
+            >
+              4D-CUBE
+            </Link>
 
             <p className="mt-4 max-w-[280px] text-sm leading-6 text-white/55">
               Modular building systems designed to adapt, expand,
@@ -31,16 +31,32 @@ export default function Footer() {
             </p>
 
             <div className="mt-4 flex flex-col gap-3 text-sm text-white/65">
-              <Link href="/system" className="transition-opacity hover:opacity-60">
+              <Link
+                href="/system"
+                className="transition-opacity hover:opacity-60"
+              >
                 The System
               </Link>
 
-              <Link href="/fittings" className="transition-opacity hover:opacity-60">
+              <Link
+                href="/connections"
+                className="transition-opacity hover:opacity-60"
+              >
                 Connections
               </Link>
 
-              <Link href="/applications" className="transition-opacity hover:opacity-60">
+              <Link
+                href="/applications"
+                className="transition-opacity hover:opacity-60"
+              >
                 Applications
+              </Link>
+
+              <Link
+                href="/market"
+                className="transition-opacity hover:opacity-60"
+              >
+                Market
               </Link>
             </div>
           </div>
@@ -82,15 +98,24 @@ export default function Footer() {
             </p>
 
             <div className="mt-4 flex flex-col gap-3 text-sm text-white/65">
-              <Link href="/mission" className="transition-opacity hover:opacity-60">
+              <Link
+                href="/mission"
+                className="transition-opacity hover:opacity-60"
+              >
                 Mission
               </Link>
 
-              <Link href="/vision" className="transition-opacity hover:opacity-60">
+              <Link
+                href="/vision"
+                className="transition-opacity hover:opacity-60"
+              >
                 Vision
               </Link>
 
-              <Link href="/contact" className="transition-opacity hover:opacity-60">
+              <Link
+                href="/contact"
+                className="transition-opacity hover:opacity-60"
+              >
                 Contact
               </Link>
             </div>
@@ -103,11 +128,17 @@ export default function Footer() {
             </p>
 
             <div className="mt-4 flex flex-col gap-3 text-sm text-white/65">
-              <Link href="/privacy" className="transition-opacity hover:opacity-60">
+              <Link
+                href="/privacy"
+                className="transition-opacity hover:opacity-60"
+              >
                 Privacy
               </Link>
 
-              <Link href="/terms" className="transition-opacity hover:opacity-60">
+              <Link
+                href="/terms"
+                className="transition-opacity hover:opacity-60"
+              >
                 Terms
               </Link>
             </div>
