@@ -74,6 +74,52 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* SCHRØDER STORY */}
+      <section className="blueprint-surface border-b border-black/15 px-6 py-24 md:px-16 md:py-32">
+        <div className="mx-auto max-w-7xl">
+          <div className="grid gap-16 md:grid-cols-2 md:gap-24">
+            <div>
+              <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-neutral-500">
+                Craftsmanship Across Generations
+              </p>
+
+              <h2 className="max-w-xl text-4xl font-medium leading-tight tracking-[-0.03em] md:text-5xl">
+                BEFORE
+                <br />
+                4D-CUBE,
+                <br />
+                THERE WAS
+                <br />
+                SCHRØDER.
+              </h2>
+            </div>
+
+            <div className="flex flex-col justify-end">
+              <p className="max-w-xl text-lg leading-8 text-neutral-700">
+                Niels Christiansen grew up around Schrøder Cykler, the
+                Copenhagen bicycle company whose history reaches back to 1920.
+                It was here that craftsmanship, materials and particularly
+                aluminium became part of his practical understanding of how
+                things are designed, built and made to last.
+              </p>
+
+              <p className="mt-8 max-w-xl text-lg leading-8 text-neutral-700">
+                That background does not make Schrøder Cykler part of 4D-CUBE.
+                But the knowledge, curiosity and respect for making things
+                properly travelled with Niels into what came next.
+              </p>
+
+              <Link
+                href="/story/schroder-cykler"
+                className="mt-10 inline-block w-fit border-b border-black pb-2 font-medium transition-opacity hover:opacity-50"
+              >
+                Read the Schrøder story →
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* TODAY */}
       <section className="bg-[#292722] px-6 py-24 text-white md:px-16 md:py-32">
         <div className="mx-auto max-w-7xl">
@@ -103,7 +149,7 @@ export default function AboutPage() {
               </p>
 
               <p className="mt-8 max-w-xl text-lg leading-8 text-white/70">
-                The work now centres on product development, fittings,
+                The work now centres on product development, connections,
                 prototyping, validation, manufacturing, market applications and
                 commercial partnerships.
               </p>
@@ -179,7 +225,7 @@ export default function AboutPage() {
             <div className="flex flex-col justify-end">
               <p className="max-w-xl text-lg leading-8 text-neutral-700">
                 4D-CUBE is being developed across humanitarian, home and
-                garden, and professional applications, with fittings and
+                garden, and professional applications, with connections and
                 structural interfaces expanding around the same core principle.
               </p>
 
