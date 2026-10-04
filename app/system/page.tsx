@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function SystemPage() {
   return (
-    <main className="bg-[#f3f0ea] text-black">
+    <main className="text-black">
       {/* INTRO */}
       <section className="blueprint-surface border-b border-black/15">
         <div className="mx-auto grid max-w-6xl gap-16 px-6 py-24 md:grid-cols-2 md:px-10 md:py-32">

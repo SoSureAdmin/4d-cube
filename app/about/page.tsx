@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-[#f4f1eb] text-[#161616]">
+    <main className="min-h-screen bg-[#e8dfc9] text-[#161616]">
       {/* HERO */}
       <section className="blueprint-surface border-b border-black/15 px-6 py-24 md:px-16 md:py-32">
         <div className="mx-auto max-w-7xl">
@@ -75,7 +75,7 @@ export default function AboutPage() {
       </section>
 
       {/* TODAY */}
-      <section className="bg-[#161616] px-6 py-24 text-white md:px-16 md:py-32">
+      <section className="bg-[#292722] px-6 py-24 text-white md:px-16 md:py-32">
         <div className="mx-auto max-w-7xl">
           <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-white/50">
             Today

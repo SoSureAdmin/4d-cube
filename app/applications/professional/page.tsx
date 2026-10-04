@@ -207,7 +207,7 @@ export default function ProfessionalPage() {
       </section>
 
       {/* LIFECYCLE */}
-      <section className="bg-[#161616] px-6 py-24 text-white md:px-12 md:py-32">
+      <section className="bg-[#292722] px-6 py-24 text-white md:px-12 md:py-32">
         <div className="mx-auto max-w-7xl">
           <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-white/45">
             Built For Reuse

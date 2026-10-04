@@ -78,7 +78,7 @@ export default function HumanitarianPage() {
       </section>
 
       {/* LIFECYCLE */}
-      <section className="bg-[#161616] px-6 py-24 text-white md:px-12 md:py-32">
+      <section className="bg-[#292722] px-6 py-24 text-white md:px-12 md:py-32">
         <div className="mx-auto max-w-7xl">
           <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-white/45">
             Designed For Change
@@ -195,7 +195,9 @@ export default function HumanitarianPage() {
               <p className="mb-5 text-xs tracking-[0.22em] text-neutral-500">
                 01
               </p>
+
               <h3 className="text-2xl font-semibold">Modular</h3>
+
               <p className="mt-5 leading-7 text-neutral-600">
                 Standardized components create repeatable structural modules.
               </p>
@@ -205,7 +207,9 @@ export default function HumanitarianPage() {
               <p className="mb-5 text-xs tracking-[0.22em] text-neutral-500">
                 02
               </p>
+
               <h3 className="text-2xl font-semibold">Lightweight</h3>
+
               <p className="mt-5 leading-7 text-neutral-600">
                 Aluminium is being explored as the baseline structural material
                 for the humanitarian system.
@@ -216,7 +220,9 @@ export default function HumanitarianPage() {
               <p className="mb-5 text-xs tracking-[0.22em] text-neutral-500">
                 03
               </p>
+
               <h3 className="text-2xl font-semibold">Reconfigurable</h3>
+
               <p className="mt-5 leading-7 text-neutral-600">
                 Modules are intended to support expansion, reduction and
                 changing configurations.
@@ -227,7 +233,9 @@ export default function HumanitarianPage() {
               <p className="mb-5 text-xs tracking-[0.22em] text-neutral-500">
                 04
               </p>
+
               <h3 className="text-2xl font-semibold">Reusable</h3>
+
               <p className="mt-5 leading-7 text-neutral-600">
                 Structural components are intended for dismantling, transport
                 and repeated use.
@@ -238,7 +246,7 @@ export default function HumanitarianPage() {
       </section>
 
       {/* DEVELOPMENT STATUS */}
-      <section className="bg-[#161616] px-6 py-24 text-white md:px-12 md:py-32">
+      <section className="bg-[#292722] px-6 py-24 text-white md:px-12 md:py-32">
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-16 md:grid-cols-2 md:gap-24">
             <div>

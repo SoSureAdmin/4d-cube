@@ -53,7 +53,7 @@ export default function MissionPage() {
       </section>
 
       {/* Lifecycle */}
-      <section className="bg-[#111111] px-6 py-20 text-white md:px-12 md:py-28">
+      <section className="bg-[#292722] px-6 py-20 text-white md:px-12 md:py-28">
         <div className="mx-auto max-w-7xl">
           <p className="text-xs font-medium uppercase tracking-[0.2em] text-white/40">
             Designed for change
@@ -68,7 +68,7 @@ export default function MissionPage() {
               ["05", "Transport"],
               ["06", "Rebuild"],
             ].map(([number, title]) => (
-              <div key={number} className="bg-[#111111] p-8 md:p-10">
+              <div key={number} className="bg-[#292722] p-8 md:p-10">
                 <p className="text-xs tracking-[0.2em] text-white/30">
                   {number}
                 </p>

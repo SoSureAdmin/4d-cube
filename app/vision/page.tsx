@@ -54,14 +54,14 @@ export default function VisionPage() {
       </section>
 
       {/* PRINCIPLES */}
-      <section className="bg-[#111111] px-6 py-20 text-white md:px-12 md:py-28">
+      <section className="bg-[#292722] px-6 py-20 text-white md:px-12 md:py-28">
         <div className="mx-auto max-w-7xl">
           <p className="text-xs font-medium uppercase tracking-[0.2em] text-white/40">
             The Platform
           </p>
 
           <div className="mt-10 grid gap-px bg-white/15 md:grid-cols-3">
-            <div className="bg-[#111111] p-8 md:p-10">
+            <div className="bg-[#292722] p-8 md:p-10">
               <p className="text-xs tracking-[0.2em] text-white/30">01</p>
 
               <h2 className="mt-8 text-2xl font-medium">
@@ -74,7 +74,7 @@ export default function VisionPage() {
               </p>
             </div>
 
-            <div className="bg-[#111111] p-8 md:p-10">
+            <div className="bg-[#292722] p-8 md:p-10">
               <p className="text-xs tracking-[0.2em] text-white/30">02</p>
 
               <h2 className="mt-8 text-2xl font-medium">
@@ -87,7 +87,7 @@ export default function VisionPage() {
               </p>
             </div>
 
-            <div className="bg-[#111111] p-8 md:p-10">
+            <div className="bg-[#292722] p-8 md:p-10">
               <p className="text-xs tracking-[0.2em] text-white/30">03</p>
 
               <h2 className="mt-8 text-2xl font-medium">

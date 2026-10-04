@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function FittingsPage() {
+export default function ConnectionsPage() {
   return (
     <main className="min-h-screen text-[#161616]">
       {/* HERO */}
@@ -257,7 +257,7 @@ export default function FittingsPage() {
       </section>
 
       {/* MATERIAL DIRECTIONS */}
-      <section className="bg-[#161616] px-6 py-24 text-white md:px-12 md:py-32">
+      <section className="bg-[#292722] px-6 py-24 text-white md:px-12 md:py-32">
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-16 md:grid-cols-2 md:gap-24">
             <div>
@@ -410,7 +410,7 @@ export default function FittingsPage() {
 
           <div className="flex flex-col justify-end">
             <p className="max-w-xl text-lg leading-8 text-neutral-700">
-              Additional fittings and interfaces may become relevant as the
+              Additional connections and interfaces may become relevant as the
               platform develops.
             </p>
 

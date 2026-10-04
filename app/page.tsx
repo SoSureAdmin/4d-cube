@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#f3f1eb] text-[#161616]">
+    <main className="min-h-screen bg-[#e8dfc9] text-[#161616]">
       {/* HERO */}
-      <section className="relative min-h-[calc(100vh-73px)] overflow-hidden border-b border-black/15 bg-[#f4f1eb]">
+      <section className="relative min-h-[calc(100vh-73px)] overflow-hidden border-b border-black/15 bg-[#e8dfc9]">
         {/* HERO IMAGE */}
         <div className="relative h-[46vh] w-full md:absolute md:inset-y-0 md:right-0 md:h-full md:w-[58%]">
           <Image
@@ -18,7 +18,7 @@ export default function Home() {
           />
 
           {/* subtle blend into page background */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#f4f1eb] via-[#f4f1eb]/25 to-transparent md:block" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#e8dfc9] via-[#e8dfc9]/25 to-transparent md:block" />
         </div>
 
         {/* HERO CONTENT */}
@@ -43,11 +43,11 @@ export default function Home() {
               </p>
 
               <Link
-  href="/system"
-  className="mt-10 inline-block w-fit border-b border-black pb-2 text-sm font-medium uppercase tracking-[0.16em] transition-opacity hover:opacity-50"
->
-  Explore the system →
-</Link>
+                href="/system"
+                className="mt-10 inline-block w-fit border-b border-black pb-2 text-sm font-medium uppercase tracking-[0.16em] transition-opacity hover:opacity-50"
+              >
+                Explore the system →
+              </Link>
             </div>
           </div>
 
@@ -59,8 +59,7 @@ export default function Home() {
       </section>
 
       {/* SYSTEM */}
-  <section className="blueprint-surface relative border-t border-black/20 px-6 py-24 md:px-16 md:py-32">
-
+      <section className="blueprint-surface relative border-t border-black/20 px-6 py-24 md:px-16 md:py-32">
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-16 md:grid-cols-2 md:gap-24">
             <div>
@@ -117,13 +116,13 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FITTINGS */}
-      <section className="border-t border-black/20 bg-[#161616] px-6 py-24 text-white md:px-16 md:py-32">
+      {/* CONNECTIONS */}
+      <section className="border-t border-black/20 bg-[#292722] px-6 py-24 text-white md:px-16 md:py-32">
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-16 md:grid-cols-2 md:gap-24">
             <div>
               <p className="mb-6 text-sm font-medium uppercase tracking-[0.24em] text-white/50">
-                Fittings
+                Connections
               </p>
 
               <h2 className="max-w-xl text-5xl font-semibold leading-[0.95] tracking-[-0.05em] md:text-7xl">
@@ -150,10 +149,10 @@ export default function Home() {
               </p>
 
               <Link
-                href="/fittings"
+                href="/connections"
                 className="mt-10 inline-block w-fit border-b border-white pb-2 text-base font-medium transition-opacity hover:opacity-60"
               >
-                Explore fittings →
+                Explore connections →
               </Link>
             </div>
           </div>
@@ -252,7 +251,7 @@ export default function Home() {
       </section>
 
       {/* WHY 4D-CUBE */}
-      <section className="bg-[#161616] px-6 py-24 text-white md:px-16 md:py-32">
+      <section className="bg-[#292722] px-6 py-24 text-white md:px-16 md:py-32">
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-16 md:grid-cols-2 md:gap-24">
             <div>
@@ -316,7 +315,7 @@ export default function Home() {
       </section>
 
       {/* STORY */}
-      <section className="blueprint-surface bg-[#f4f1eb] px-6 py-24 md:px-16 md:py-32">
+      <section className="blueprint-surface bg-[#e8dfc9] px-6 py-24 md:px-16 md:py-32">
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-16 md:grid-cols-2 md:gap-24">
             <div>
@@ -366,7 +365,7 @@ export default function Home() {
       </section>
 
       {/* CONTACT CTA */}
-      <section className="border-t border-black/15 bg-[#f4f1eb] px-6 py-20 md:px-16 md:py-24">
+      <section className="border-t border-black/15 bg-[#e8dfc9] px-6 py-20 md:px-16 md:py-24">
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-12 md:grid-cols-2 md:items-end md:gap-24">
             <div>

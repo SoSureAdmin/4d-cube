@@ -1,6 +1,6 @@
 export default function ContactPage() {
   return (
-    <main className="min-h-screen bg-[#f4f1eb] text-[#161616]">
+    <main className="min-h-screen bg-[#e8dfc9] text-[#161616]">
       {/* INTRO */}
       <section className="blueprint-surface border-b border-black/15 px-6 py-24 md:px-12 md:py-32">
         <div className="mx-auto max-w-7xl">
@@ -87,7 +87,7 @@ export default function ContactPage() {
       </section>
 
       {/* DIRECT CONTACT */}
-      <section className="bg-[#161616] px-6 py-24 text-white md:px-12 md:py-32">
+      <section className="bg-[#292722] px-6 py-24 text-white md:px-12 md:py-32">
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-16 md:grid-cols-2 md:gap-24">
             <div>
