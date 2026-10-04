@@ -151,6 +151,59 @@ export default function SchroderCyklerPage() {
         </div>
       </section>
 
+      {/* VILHELM */}
+      <section className="bg-[#292722] px-6 py-24 text-white md:px-16 md:py-32">
+        <div className="mx-auto max-w-7xl">
+          <div className="grid gap-16 md:grid-cols-2 md:gap-24">
+            <div>
+              <p className="mb-6 text-xs font-medium uppercase tracking-[0.22em] text-white/50">
+                From Father To Son
+              </p>
+
+              <h2 className="max-w-xl text-4xl font-medium leading-tight tracking-[-0.03em] md:text-5xl">
+                SOME WORDS
+                <br />
+                CARRY MORE
+                <br />
+                WEIGHT
+                <br />
+                THAN OTHERS.
+              </h2>
+            </div>
+
+            <div className="flex flex-col justify-end">
+              <p className="max-w-xl text-lg leading-8 text-white/70">
+                Vilhelm Christiansen, Niels&apos; father, was never a man who
+                handed out praise lightly.
+              </p>
+
+              <p className="mt-8 max-w-xl text-lg leading-8 text-white/70">
+                That made one moment particularly memorable. When Niels showed
+                his father the idea that would become 4D-CUBE, Vilhelm looked
+                at it and said:
+              </p>
+
+              <blockquote className="mt-12 border-l border-white/40 pl-8">
+                <p className="max-w-xl text-3xl font-medium leading-tight tracking-[-0.03em] md:text-5xl">
+                  “That one I believe in, my boy.”
+                </p>
+
+                <p className="mt-6 text-xs font-medium uppercase tracking-[0.22em] text-white/40">
+                  Vilhelm Christiansen
+                </p>
+              </blockquote>
+
+              <p className="mt-12 max-w-xl text-lg leading-8 text-white/70">
+                Coming from his father, those few words meant something. They
+                were not a business case or a technical validation. They were
+                the recognition of an idea from a man whose life had been built
+                around practical craftsmanship and making things work.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CLOSING */}
       <section className="blueprint-surface px-6 py-24 md:px-16 md:py-32">
         <div className="mx-auto max-w-7xl">
