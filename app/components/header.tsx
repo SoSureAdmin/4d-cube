@@ -50,6 +50,13 @@ export default function Header() {
           </Link>
 
           <Link
+            href="/story/schroder-cykler"
+            className="transition-opacity hover:opacity-50"
+          >
+            Story
+          </Link>
+
+          <Link
             href="/about"
             className="transition-opacity hover:opacity-50"
           >

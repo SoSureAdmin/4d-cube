@@ -99,6 +99,13 @@ export default function Footer() {
 
             <div className="mt-4 flex flex-col gap-3 text-sm text-white/65">
               <Link
+                href="/story/schroder-cykler"
+                className="transition-opacity hover:opacity-60"
+              >
+                Story
+              </Link>
+
+              <Link
                 href="/mission"
                 className="transition-opacity hover:opacity-60"
               >
